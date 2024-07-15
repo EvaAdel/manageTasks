@@ -33,5 +33,3 @@ app.all("*", (req, res, next) => {
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
 
-//IN THE END WE MUST DELETE THE NODE_MODULES BEFORE SENDING THE project OR TO GITHUB
-//IN THE END WE MUST DELETE ALL CONSOLE.LOG() FROM ANY FILE ma3da SERVER & DATABASE BEFORE SENDING THE PROJECT OR TO GITHUB
