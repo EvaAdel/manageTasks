@@ -1,4 +1,3 @@
-import {errorHandling} from "./middlewares/error-handling-middleware.js";
  import {errorHandlingClass} from "./utils/error-class.utils.js";
 //import { ApiFeatures } from "./utils/apiFeatures.js";
 

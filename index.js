@@ -4,7 +4,8 @@ import mountRoutes from "./src/mount.routes.js";
 import { db_connection } from "./DB/connection.js";
 import { errorHandlerResponse } from "./src/middlewares/error-handling-middleware.js";
 import { errorHandlingClass } from "./src/utils/error-class.utils.js";
-import xss from "xss-clean";
+import { xss } from "express-xss-sanitizer";
+
 
 const app = express();
 
